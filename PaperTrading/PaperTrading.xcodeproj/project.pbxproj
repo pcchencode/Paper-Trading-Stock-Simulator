@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790B1F4B25E6CBDA00BD54C7 /* PaperTradingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1F4A25E6CBDA00BD54C7 /* PaperTradingApp.swift */; };
+		790B1F4D25E6CBDA00BD54C7 /* StockDetailsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1F4C25E6CBDA00BD54C7 /* StockDetailsContentView.swift */; };
+		790B1F4F25E6CBDD00BD54C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790B1F4E25E6CBDD00BD54C7 /* Assets.xcassets */; };
+		790B1F5225E6CBDD00BD54C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790B1F5125E6CBDD00BD54C7 /* Preview Assets.xcassets */; };
+		790B1F6125E6CC0C00BD54C7 /* StockDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1F6025E6CC0C00BD54C7 /* StockDataModel.swift */; };
+		790B1F6425E6CD0C00BD54C7 /* StocksDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1F6325E6CD0C00BD54C7 /* StocksDataManager.swift */; };
+		790B1F6825E6CDA800BD54C7 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1F6725E6CDA800BD54C7 /* AppConfig.swift */; };
+		790B1F6D25E6E33A00BD54C7 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1F6C25E6E33A00BD54C7 /* ChartView.swift */; };
+		790B1FC225E824AE00BD54C7 /* PositionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FC125E824AE00BD54C7 /* PositionModel.swift */; };
+		790B1FC625E82F0A00BD54C7 /* StockDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FC525E82F0A00BD54C7 /* StockDetailsHeaderView.swift */; };
+		790B1FC925E82F7F00BD54C7 /* StockDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FC825E82F7F00BD54C7 /* StockDetailsModel.swift */; };
+		790B1FCD25E8313100BD54C7 /* TimeIntervalSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FCC25E8313100BD54C7 /* TimeIntervalSelectorView.swift */; };
+		790B1FD025E8329200BD54C7 /* StockPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FCF25E8329200BD54C7 /* StockPositionView.swift */; };
+		790B1FD325E8373A00BD54C7 /* DashboardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FD225E8373A00BD54C7 /* DashboardContentView.swift */; };
+		790B1FD725E85F3200BD54C7 /* CustomNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FD625E85F3200BD54C7 /* CustomNumberInputView.swift */; };
+		790B1FDA25E85FCF00BD54C7 /* TradeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FD925E85FCF00BD54C7 /* TradeContentView.swift */; };
+		790B1FDD25E9373200BD54C7 /* SearchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FDC25E9373200BD54C7 /* SearchContentView.swift */; };
+		790B1FE425E9733A00BD54C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790B1FE325E9733900BD54C7 /* LaunchScreen.storyboard */; };
+		790B1FEA25E9828000BD54C7 /* WatchlistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FE925E9828000BD54C7 /* WatchlistItemView.swift */; };
+		790B1FED25E997CA00BD54C7 /* AppFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B1FEC25E997CA00BD54C7 /* AppFeaturesView.swift */; };
+		DCFCB591263B624A0027A444 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFCB590263B624A0027A444 /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		790B1F4725E6CBDA00BD54C7 /* PaperTrading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperTrading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		790B1F4A25E6CBDA00BD54C7 /* PaperTradingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperTradingApp.swift; sourceTree = "<group>"; };
+		790B1F4C25E6CBDA00BD54C7 /* StockDetailsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsContentView.swift; sourceTree = "<group>"; };
+		790B1F4E25E6CBDD00BD54C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		790B1F5125E6CBDD00BD54C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		790B1F5325E6CBDD00BD54C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790B1F6025E6CC0C00BD54C7 /* StockDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDataModel.swift; sourceTree = "<group>"; };
+		790B1F6325E6CD0C00BD54C7 /* StocksDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksDataManager.swift; sourceTree = "<group>"; };
+		790B1F6725E6CDA800BD54C7 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		790B1F6C25E6E33A00BD54C7 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		790B1FC125E824AE00BD54C7 /* PositionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionModel.swift; sourceTree = "<group>"; };
+		790B1FC525E82F0A00BD54C7 /* StockDetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsHeaderView.swift; sourceTree = "<group>"; };
+		790B1FC825E82F7F00BD54C7 /* StockDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsModel.swift; sourceTree = "<group>"; };
+		790B1FCC25E8313100BD54C7 /* TimeIntervalSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalSelectorView.swift; sourceTree = "<group>"; };
+		790B1FCF25E8329200BD54C7 /* StockPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPositionView.swift; sourceTree = "<group>"; };
+		790B1FD225E8373A00BD54C7 /* DashboardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardContentView.swift; sourceTree = "<group>"; };
+		790B1FD625E85F3200BD54C7 /* CustomNumberInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNumberInputView.swift; sourceTree = "<group>"; };
+		790B1FD925E85FCF00BD54C7 /* TradeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeContentView.swift; sourceTree = "<group>"; };
+		790B1FDC25E9373200BD54C7 /* SearchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContentView.swift; sourceTree = "<group>"; };
+		790B1FE325E9733900BD54C7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		790B1FE925E9828000BD54C7 /* WatchlistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistItemView.swift; sourceTree = "<group>"; };
+		790B1FEC25E997CA00BD54C7 /* AppFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeaturesView.swift; sourceTree = "<group>"; };
+		DCFCB58E263B62060027A444 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "GoogleMobileAdsSdkiOS-8.4.0/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
+		DCFCB590263B624A0027A444 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-8.4.0/GoogleMobileAds.xcframework/ios-arm64_x86_64-simulator/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790B1F4425E6CBDA00BD54C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFCB591263B624A0027A444 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790B1F3E25E6CBDA00BD54C7 = {
+			isa = PBXGroup;
+			children = (
+				790B1F6625E6CD9F00BD54C7 /* Configurations */,
+				790B1F4925E6CBDA00BD54C7 /* PaperTrading */,
+				790B1F4825E6CBDA00BD54C7 /* Products */,
+				7C819B6BC785E914F17BB58A /* Pods */,
+				DCFCB58D263B62060027A444 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		790B1F4825E6CBDA00BD54C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790B1F4725E6CBDA00BD54C7 /* PaperTrading.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790B1F4925E6CBDA00BD54C7 /* PaperTrading */ = {
+			isa = PBXGroup;
+			children = (
+				790B1F6A25E6E15700BD54C7 /* Views */,
+				790B1F5E25E6CBF200BD54C7 /* Models */,
+				790B1F5A25E6CBE400BD54C7 /* Lifecycle */,
+				790B1F5F25E6CBF800BD54C7 /* DataManagers */,
+				790B1F5C25E6CBEA00BD54C7 /* ContentViews */,
+				790B1F4E25E6CBDD00BD54C7 /* Assets.xcassets */,
+				790B1F5325E6CBDD00BD54C7 /* Info.plist */,
+				790B1FE325E9733900BD54C7 /* LaunchScreen.storyboard */,
+				790B1F5025E6CBDD00BD54C7 /* Preview Content */,
+			);
+			path = PaperTrading;
+			sourceTree = "<group>";
+		};
+		790B1F5025E6CBDD00BD54C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				790B1F5125E6CBDD00BD54C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		790B1F5A25E6CBE400BD54C7 /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				790B1F4A25E6CBDA00BD54C7 /* PaperTradingApp.swift */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		790B1F5C25E6CBEA00BD54C7 /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				790B1FD225E8373A00BD54C7 /* DashboardContentView.swift */,
+				790B1F4C25E6CBDA00BD54C7 /* StockDetailsContentView.swift */,
+				790B1FDC25E9373200BD54C7 /* SearchContentView.swift */,
+				790B1FD925E85FCF00BD54C7 /* TradeContentView.swift */,
+				790B1FEC25E997CA00BD54C7 /* AppFeaturesView.swift */,
+			);
+			path = ContentViews;
+			sourceTree = "<group>";
+		};
+		790B1F5E25E6CBF200BD54C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				790B1FC125E824AE00BD54C7 /* PositionModel.swift */,
+				790B1F6025E6CC0C00BD54C7 /* StockDataModel.swift */,
+				790B1FC825E82F7F00BD54C7 /* StockDetailsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		790B1F5F25E6CBF800BD54C7 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				790B1F6325E6CD0C00BD54C7 /* StocksDataManager.swift */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		790B1F6625E6CD9F00BD54C7 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				790B1F6725E6CDA800BD54C7 /* AppConfig.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		790B1F6A25E6E15700BD54C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				790B1F6C25E6E33A00BD54C7 /* ChartView.swift */,
+				790B1FC525E82F0A00BD54C7 /* StockDetailsHeaderView.swift */,
+				790B1FCC25E8313100BD54C7 /* TimeIntervalSelectorView.swift */,
+				790B1FD625E85F3200BD54C7 /* CustomNumberInputView.swift */,
+				790B1FCF25E8329200BD54C7 /* StockPositionView.swift */,
+				790B1FE925E9828000BD54C7 /* WatchlistItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C819B6BC785E914F17BB58A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCFCB58D263B62060027A444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFCB590263B624A0027A444 /* GoogleMobileAds.framework */,
+				DCFCB58E263B62060027A444 /* GoogleMobileAds.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790B1F4625E6CBDA00BD54C7 /* PaperTrading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790B1F5625E6CBDD00BD54C7 /* Build configuration list for PBXNativeTarget "PaperTrading" */;
+			buildPhases = (
+				790B1F4325E6CBDA00BD54C7 /* Sources */,
+				790B1F4425E6CBDA00BD54C7 /* Frameworks */,
+				790B1F4525E6CBDA00BD54C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperTrading;
+			productName = PaperTrading;
+			productReference = 790B1F4725E6CBDA00BD54C7 /* PaperTrading.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790B1F3F25E6CBDA00BD54C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					790B1F4625E6CBDA00BD54C7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 790B1F4225E6CBDA00BD54C7 /* Build configuration list for PBXProject "PaperTrading" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 790B1F3E25E6CBDA00BD54C7;
+			productRefGroup = 790B1F4825E6CBDA00BD54C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790B1F4625E6CBDA00BD54C7 /* PaperTrading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790B1F4525E6CBDA00BD54C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790B1FE425E9733A00BD54C7 /* LaunchScreen.storyboard in Resources */,
+				790B1F5225E6CBDD00BD54C7 /* Preview Assets.xcassets in Resources */,
+				790B1F4F25E6CBDD00BD54C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790B1F4325E6CBDA00BD54C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790B1FDD25E9373200BD54C7 /* SearchContentView.swift in Sources */,
+				790B1F4D25E6CBDA00BD54C7 /* StockDetailsContentView.swift in Sources */,
+				790B1F6825E6CDA800BD54C7 /* AppConfig.swift in Sources */,
+				790B1FD725E85F3200BD54C7 /* CustomNumberInputView.swift in Sources */,
+				790B1FC925E82F7F00BD54C7 /* StockDetailsModel.swift in Sources */,
+				790B1FC225E824AE00BD54C7 /* PositionModel.swift in Sources */,
+				790B1FDA25E85FCF00BD54C7 /* TradeContentView.swift in Sources */,
+				790B1FD025E8329200BD54C7 /* StockPositionView.swift in Sources */,
+				790B1F6125E6CC0C00BD54C7 /* StockDataModel.swift in Sources */,
+				790B1F6425E6CD0C00BD54C7 /* StocksDataManager.swift in Sources */,
+				790B1FED25E997CA00BD54C7 /* AppFeaturesView.swift in Sources */,
+				790B1FD325E8373A00BD54C7 /* DashboardContentView.swift in Sources */,
+				790B1FC625E82F0A00BD54C7 /* StockDetailsHeaderView.swift in Sources */,
+				790B1F4B25E6CBDA00BD54C7 /* PaperTradingApp.swift in Sources */,
+				790B1F6D25E6E33A00BD54C7 /* ChartView.swift in Sources */,
+				790B1FCD25E8313100BD54C7 /* TimeIntervalSelectorView.swift in Sources */,
+				790B1FEA25E9828000BD54C7 /* WatchlistItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		790B1F5425E6CBDD00BD54C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/renedena/Downloads/GoogleMobileAdsSdkiOS-8.4.0";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		790B1F5525E6CBDD00BD54C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/renedena/Downloads/GoogleMobileAdsSdkiOS-8.4.0";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790B1F5725E6CBDD00BD54C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PaperTrading/Preview Content\"";
+				DEVELOPMENT_TEAM = JAPVDZ486H;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.4.0/GoogleMobileAds.xcframework/ios-arm64_x86_64-simulator",
+				);
+				INFOPLIST_FILE = PaperTrading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyName.myFirstApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		790B1F5825E6CBDD00BD54C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PaperTrading/Preview Content\"";
+				DEVELOPMENT_TEAM = JAPVDZ486H;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-8.4.0/GoogleMobileAds.xcframework/ios-arm64_x86_64-simulator",
+				);
+				INFOPLIST_FILE = PaperTrading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyName.myFirstApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790B1F4225E6CBDA00BD54C7 /* Build configuration list for PBXProject "PaperTrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790B1F5425E6CBDD00BD54C7 /* Debug */,
+				790B1F5525E6CBDD00BD54C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790B1F5625E6CBDD00BD54C7 /* Build configuration list for PBXNativeTarget "PaperTrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790B1F5725E6CBDD00BD54C7 /* Debug */,
+				790B1F5825E6CBDD00BD54C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790B1F3F25E6CBDA00BD54C7 /* Project object */;
+}

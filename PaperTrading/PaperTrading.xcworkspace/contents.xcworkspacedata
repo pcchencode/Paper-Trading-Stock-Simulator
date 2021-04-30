@@ -1,0 +1,2201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:PaperTrading.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:GoogleMobileAdsSdkiOS-8.4.0"
+      name = "GoogleMobileAdsSdkiOS-8.4.0">
+      <Group
+         location = "group:nanopb.xcframework"
+         name = "nanopb.xcframework">
+         <Group
+            location = "group:tvos-arm64"
+            name = "tvos-arm64">
+            <Group
+               location = "group:nanopb.framework"
+               name = "nanopb.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:pb_common.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:nanopb-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_encode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_decode.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:nanopb">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ios-arm64_i386_x86_64-simulator"
+            name = "ios-arm64_i386_x86_64-simulator">
+            <Group
+               location = "group:nanopb.framework"
+               name = "nanopb.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:pb_common.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:nanopb-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_encode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_decode.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:nanopb">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:tvos-arm64_x86_64-simulator"
+            name = "tvos-arm64_x86_64-simulator">
+            <Group
+               location = "group:nanopb.framework"
+               name = "nanopb.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:pb_common.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:nanopb-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_encode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_decode.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:nanopb">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:macos-arm64_x86_64"
+            name = "macos-arm64_x86_64">
+            <Group
+               location = "group:nanopb.framework"
+               name = "nanopb.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:pb_common.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:nanopb-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_encode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_decode.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:nanopb">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ios-arm64_x86_64-maccatalyst"
+            name = "ios-arm64_x86_64-maccatalyst">
+            <Group
+               location = "group:nanopb.framework"
+               name = "nanopb.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:pb_common.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:nanopb-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_encode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_decode.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:nanopb">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:ios-arm64_armv7"
+            name = "ios-arm64_armv7">
+            <Group
+               location = "group:nanopb.framework"
+               name = "nanopb.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:pb_common.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:nanopb-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_encode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pb_decode.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:nanopb">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Licenses"
+         name = "Licenses">
+         <FileRef
+            location = "group:Promises-LICENSE">
+         </FileRef>
+         <FileRef
+            location = "group:NanoPB-LICENSE">
+         </FileRef>
+         <FileRef
+            location = "group:OpenMeasurement-LICENSE">
+         </FileRef>
+         <FileRef
+            location = "group:GoogleUtilities-LICENSE">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:PromisesObjC.xcframework"
+         name = "PromisesObjC.xcframework">
+         <Group
+            location = "group:tvos-arm64"
+            name = "tvos-arm64">
+            <Group
+               location = "group:PromisesObjC.framework"
+               name = "PromisesObjC.framework">
+               <FileRef
+                  location = "group:PromisesObjC">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:FBLPromise+Testing.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Reduce.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Catch.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Recover.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Validate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+All.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Race.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Wrap.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Retry.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Await.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Delay.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Do.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Timeout.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PromisesObjC-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromiseError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Then.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Async.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Always.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Any.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ios-arm64_i386_x86_64-simulator"
+            name = "ios-arm64_i386_x86_64-simulator">
+            <Group
+               location = "group:PromisesObjC.framework"
+               name = "PromisesObjC.framework">
+               <FileRef
+                  location = "group:PromisesObjC">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:FBLPromise+Testing.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Reduce.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Catch.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Recover.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Validate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+All.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Race.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Wrap.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Retry.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Await.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Delay.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Do.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Timeout.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PromisesObjC-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromiseError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Then.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Async.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Always.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Any.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:tvos-arm64_x86_64-simulator"
+            name = "tvos-arm64_x86_64-simulator">
+            <Group
+               location = "group:PromisesObjC.framework"
+               name = "PromisesObjC.framework">
+               <FileRef
+                  location = "group:PromisesObjC">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:FBLPromise+Testing.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Reduce.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Catch.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Recover.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Validate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+All.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Race.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Wrap.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Retry.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Await.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Delay.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Do.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Timeout.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PromisesObjC-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromiseError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Then.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Async.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Always.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Any.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:macos-arm64_x86_64"
+            name = "macos-arm64_x86_64">
+            <Group
+               location = "group:PromisesObjC.framework"
+               name = "PromisesObjC.framework">
+               <FileRef
+                  location = "group:PromisesObjC">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:FBLPromise+Testing.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Reduce.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Catch.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Recover.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Validate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+All.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Race.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Wrap.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Retry.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Await.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Headers">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Delay.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Do.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Timeout.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PromisesObjC-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromiseError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Then.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Async.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Always.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Any.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ios-arm64_x86_64-maccatalyst"
+            name = "ios-arm64_x86_64-maccatalyst">
+            <Group
+               location = "group:PromisesObjC.framework"
+               name = "PromisesObjC.framework">
+               <FileRef
+                  location = "group:PromisesObjC">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:FBLPromise+Testing.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Reduce.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Catch.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Recover.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Validate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+All.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Race.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Wrap.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Retry.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Await.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Delay.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Do.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Timeout.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PromisesObjC-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromiseError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Then.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Async.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Always.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Any.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:ios-arm64_armv7"
+            name = "ios-arm64_armv7">
+            <Group
+               location = "group:PromisesObjC.framework"
+               name = "PromisesObjC.framework">
+               <FileRef
+                  location = "group:PromisesObjC">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:FBLPromise+Testing.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Reduce.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Catch.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Recover.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Validate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+All.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Race.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Wrap.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Retry.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Await.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Delay.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Do.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Timeout.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PromisesObjC-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromiseError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Then.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Async.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Always.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBLPromise+Any.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:UserMessagingPlatform.xcframework"
+         name = "UserMessagingPlatform.xcframework">
+         <Group
+            location = "group:ios-arm64_x86_64-simulator"
+            name = "ios-arm64_x86_64-simulator">
+            <Group
+               location = "group:UserMessagingPlatform.framework"
+               name = "UserMessagingPlatform.framework">
+               <FileRef
+                  location = "group:UserMessagingPlatform">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:UMPConsentInformation.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UMPRequestParameters.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UMPDebugSettings.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UMPConsentForm.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UMPError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UserMessagingPlatform.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:ios-arm64_armv7"
+            name = "ios-arm64_armv7">
+            <Group
+               location = "group:UserMessagingPlatform.framework"
+               name = "UserMessagingPlatform.framework">
+               <FileRef
+                  location = "group:UserMessagingPlatform">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:UMPConsentInformation.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UMPRequestParameters.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UMPDebugSettings.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UMPConsentForm.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UMPError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UserMessagingPlatform.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:GoogleMobileAds.xcframework"
+         name = "GoogleMobileAds.xcframework">
+         <Group
+            location = "group:ios-arm64_x86_64-simulator"
+            name = "ios-arm64_x86_64-simulator">
+            <Group
+               location = "group:GoogleMobileAds.framework"
+               name = "GoogleMobileAds.framework">
+               <FileRef
+                  location = "group:GoogleMobileAds">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:GADMediaContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADExtras.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GAMRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAppOpenAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventInterstitialDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADVideoController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADRewardedAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADVideoOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventNativeAdDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdImageAdLoaderOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdImage+Mediation.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAudioVideoManagerDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdLoaderAdTypes.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventInterstitial.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomNativeAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdFormat.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdMetadata.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADFullScreenContentDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAd+CustomClickGesture.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdUnconfirmedClickDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAudioVideoManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADServerSideVerificationOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADRewardedInterstitialAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADMediaView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADMuteThisAdReason.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdSizeDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADVideoControllerDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADMediaAspectRatio.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADInitializationStatus.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdSize.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GoogleMobileAdsDefines.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdChoicesView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdReward.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADDebugOptionsViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdViewAdOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdLoader.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomNativeAdDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdImage.h">
+                  </FileRef>
+                  <Group
+                     location = "group:Mediation"
+                     name = "Mediation">
+                     <FileRef
+                        location = "group:GADMediationNativeAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMEnums.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAdConfiguration.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAdRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMAdNetworkAdapterProtocol.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationNativeAdAssetIdentifiers.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationRequestError.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationBannerAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAdEventDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMAdNetworkConnectorProtocol.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMRewardBasedVideoAdNetworkConnectorProtocol.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAdSize.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMRewardBasedVideoAdNetworkAdapterProtocol.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationRewardedAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationServerConfiguration.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediatedUnifiedNativeAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediatedUnifiedNativeAdNotificationSource.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAdapter.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationInterstitialAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADVersionNumber.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:GADNativeAdDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADPresentationError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdAssetIdentifiers.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADDisplayAdMeasurement.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeMuteThisAdLoaderOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventNativeAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAppEventDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADSearchBannerView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdNetworkExtras.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GAMInterstitialAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADResponseInfo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventBanner.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADRequestError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventExtras.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADMultipleAdsAdLoaderOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdLoaderDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventBannerDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GAMBannerViewOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdValue.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADBannerViewDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADDynamicHeightSearchRequest.h">
+                  </FileRef>
+                  <Group
+                     location = "group:RTBMediation"
+                     name = "RTBMediation">
+                     <FileRef
+                        location = "group:GADRTBRequestParameters.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADRTBAdapter.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:GoogleMobileAds.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADInterstitialAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventParameters.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAd+ConfirmationClick.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADMobileAds.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADRequestConfiguration.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GAMBannerView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADDelayedAdRenderingOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdMediaAdLoaderOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADBannerView.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:ios-arm64_armv7"
+            name = "ios-arm64_armv7">
+            <Group
+               location = "group:GoogleMobileAds.framework"
+               name = "GoogleMobileAds.framework">
+               <FileRef
+                  location = "group:GoogleMobileAds">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:GADMediaContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADExtras.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GAMRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAppOpenAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventInterstitialDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADVideoController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADRewardedAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADVideoOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventNativeAdDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdImageAdLoaderOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdImage+Mediation.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAudioVideoManagerDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdLoaderAdTypes.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventInterstitial.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomNativeAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdFormat.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdMetadata.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADFullScreenContentDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAd+CustomClickGesture.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdUnconfirmedClickDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAudioVideoManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADServerSideVerificationOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADRewardedInterstitialAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADMediaView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADMuteThisAdReason.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdSizeDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADVideoControllerDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADMediaAspectRatio.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADInitializationStatus.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdSize.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GoogleMobileAdsDefines.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdChoicesView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdReward.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADDebugOptionsViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdViewAdOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdLoader.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomNativeAdDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdImage.h">
+                  </FileRef>
+                  <Group
+                     location = "group:Mediation"
+                     name = "Mediation">
+                     <FileRef
+                        location = "group:GADMediationNativeAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMEnums.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAdConfiguration.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAdRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMAdNetworkAdapterProtocol.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationNativeAdAssetIdentifiers.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationRequestError.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationBannerAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAdEventDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMAdNetworkConnectorProtocol.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMRewardBasedVideoAdNetworkConnectorProtocol.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAdSize.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMRewardBasedVideoAdNetworkAdapterProtocol.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationRewardedAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationServerConfiguration.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediatedUnifiedNativeAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediatedUnifiedNativeAdNotificationSource.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationAdapter.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADMediationInterstitialAd.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADVersionNumber.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:GADNativeAdDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADPresentationError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdAssetIdentifiers.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADDisplayAdMeasurement.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeMuteThisAdLoaderOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventNativeAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAppEventDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADSearchBannerView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdNetworkExtras.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GAMInterstitialAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADResponseInfo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventBanner.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADRequestError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventExtras.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADMultipleAdsAdLoaderOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdLoaderDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventBannerDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GAMBannerViewOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADAdValue.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADBannerViewDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADDynamicHeightSearchRequest.h">
+                  </FileRef>
+                  <Group
+                     location = "group:RTBMediation"
+                     name = "RTBMediation">
+                     <FileRef
+                        location = "group:GADRTBRequestParameters.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GADRTBAdapter.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:GoogleMobileAds.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADInterstitialAd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADCustomEventParameters.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAd+ConfirmationClick.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADMobileAds.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADRequestConfiguration.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GAMBannerView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADDelayedAdRenderingOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADNativeAdMediaAdLoaderOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GADBannerView.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:GoogleAppMeasurement.xcframework"
+         name = "GoogleAppMeasurement.xcframework">
+         <Group
+            location = "group:ios-arm64_i386_x86_64-simulator"
+            name = "ios-arm64_i386_x86_64-simulator">
+            <Group
+               location = "group:GoogleAppMeasurement.framework"
+               name = "GoogleAppMeasurement.framework">
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GoogleAppMeasurement">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:ios-arm64_armv7"
+            name = "ios-arm64_armv7">
+            <Group
+               location = "group:GoogleAppMeasurement.framework"
+               name = "GoogleAppMeasurement.framework">
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GoogleAppMeasurement">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:GoogleUtilities.xcframework"
+         name = "GoogleUtilities.xcframework">
+         <Group
+            location = "group:tvos-arm64"
+            name = "tvos-arm64">
+            <Group
+               location = "group:GoogleUtilities.framework"
+               name = "GoogleUtilities.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:GULSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkMessageCode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppEnvironmentUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULApplication.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULHeartbeatDateStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULMutableDictionary.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkURLSession.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GoogleUtilities-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULURLSessionDataResponse.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkLoggerProtocol.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULUserDefaults.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetwork.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURLSession+GULPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULOriginalIMPConvenienceMacros.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLoggerLevel.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSceneDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULObjectSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSecureCoding.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULReachabilityChecker.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNSData+zlib.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSwizzledObject.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GoogleUtilities">
+               </FileRef>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ios-arm64_i386_x86_64-simulator"
+            name = "ios-arm64_i386_x86_64-simulator">
+            <Group
+               location = "group:GoogleUtilities.framework"
+               name = "GoogleUtilities.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:GULSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkMessageCode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppEnvironmentUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULApplication.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULHeartbeatDateStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULMutableDictionary.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkURLSession.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GoogleUtilities-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULURLSessionDataResponse.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkLoggerProtocol.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULUserDefaults.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetwork.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURLSession+GULPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULOriginalIMPConvenienceMacros.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLoggerLevel.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSceneDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULObjectSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSecureCoding.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULReachabilityChecker.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNSData+zlib.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSwizzledObject.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GoogleUtilities">
+               </FileRef>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:tvos-arm64_x86_64-simulator"
+            name = "tvos-arm64_x86_64-simulator">
+            <Group
+               location = "group:GoogleUtilities.framework"
+               name = "GoogleUtilities.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:GULSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkMessageCode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppEnvironmentUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULApplication.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULHeartbeatDateStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULMutableDictionary.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkURLSession.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GoogleUtilities-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULURLSessionDataResponse.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkLoggerProtocol.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULUserDefaults.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetwork.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURLSession+GULPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULOriginalIMPConvenienceMacros.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLoggerLevel.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSceneDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULObjectSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSecureCoding.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULReachabilityChecker.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNSData+zlib.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSwizzledObject.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GoogleUtilities">
+               </FileRef>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:macos-arm64_x86_64"
+            name = "macos-arm64_x86_64">
+            <Group
+               location = "group:GoogleUtilities.framework"
+               name = "GoogleUtilities.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:GULNetworkMessageCode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppEnvironmentUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULApplication.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULHeartbeatDateStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULMutableDictionary.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkURLSession.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GoogleUtilities-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULURLSessionDataResponse.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkLoggerProtocol.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULUserDefaults.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetwork.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURLSession+GULPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLoggerLevel.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSceneDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSecureCoding.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULReachabilityChecker.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNSData+zlib.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkConstants.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GoogleUtilities">
+               </FileRef>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ios-arm64_x86_64-maccatalyst"
+            name = "ios-arm64_x86_64-maccatalyst">
+            <Group
+               location = "group:GoogleUtilities.framework"
+               name = "GoogleUtilities.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:GULSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkMessageCode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppEnvironmentUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULApplication.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULHeartbeatDateStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULMutableDictionary.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkURLSession.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GoogleUtilities-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULURLSessionDataResponse.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkLoggerProtocol.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULUserDefaults.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetwork.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURLSession+GULPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULOriginalIMPConvenienceMacros.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLoggerLevel.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSceneDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULObjectSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSecureCoding.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULReachabilityChecker.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNSData+zlib.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSwizzledObject.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GoogleUtilities">
+               </FileRef>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:ios-arm64_armv7"
+            name = "ios-arm64_armv7">
+            <Group
+               location = "group:GoogleUtilities.framework"
+               name = "GoogleUtilities.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:GULSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkMessageCode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppEnvironmentUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULApplication.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULHeartbeatDateStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULAppDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULMutableDictionary.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkURLSession.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GoogleUtilities-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULURLSessionDataResponse.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkLoggerProtocol.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULUserDefaults.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetwork.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURLSession+GULPromises.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULOriginalIMPConvenienceMacros.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLoggerLevel.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSceneDelegateSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULObjectSwizzler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSecureCoding.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULKeychainUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULReachabilityChecker.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNSData+zlib.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULNetworkConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GULSwizzledObject.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GoogleUtilities">
+               </FileRef>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
+</Workspace>
