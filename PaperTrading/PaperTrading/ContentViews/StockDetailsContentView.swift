@@ -15,7 +15,7 @@ struct StockDetailsContentView: View {
     @State private var showSellAllAlert: Bool = false
     @State private var frequentRefreshTimer: Timer?
     @State private var intradayRefreshTimer: Timer?
-    @State private var adMobAds: Interstitial!
+//    @State private var adMobAds: Interstitial!
     
     // MARK: - Main rendering function
     var body: some View {
@@ -30,13 +30,13 @@ struct StockDetailsContentView: View {
         .navigationBarHidden(true)
         .sheet(isPresented: $showTradeView, content: {
             TradeContentView(manager: manager).onDisappear(perform: {
-                adMobAds.showInterstitialAds()
+//                adMobAds.showInterstitialAds()
             })
         })
         .alert(isPresented: $showSellAllAlert, content: {
             Alert(title: Text("Sell all \(manager.selectedStock!.symbol) shares?"), message: Text("Are you sure you want to sell all your shares of \(manager.selectedStock!.symbol)?"), primaryButton: .default(Text("Sell All"), action: {
                 manager.sellAllShares()
-                adMobAds.showInterstitialAds()
+//                adMobAds.showInterstitialAds()
             }), secondaryButton: .cancel())
         })
         .onDisappear(perform: {
@@ -44,7 +44,7 @@ struct StockDetailsContentView: View {
             frequentRefreshTimer?.invalidate()
         })
         .onAppear(perform: {
-            adMobAds = Interstitial()
+//            adMobAds = Interstitial()
             if let stock = manager.selectedStock?.symbol {
                 /// Refresh the last price every 1min
                 frequentRefreshTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { (_) in

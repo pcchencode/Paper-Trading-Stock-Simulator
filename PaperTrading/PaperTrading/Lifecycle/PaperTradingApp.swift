@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import GoogleMobileAds
+//import GoogleMobileAds
 
 @main
 struct PaperTradingApp: App {
@@ -15,7 +15,7 @@ struct PaperTradingApp: App {
     
     // MARK: - Main rendering function
     var body: some Scene {
-        GADMobileAds.sharedInstance().start(completionHandler: nil)
+//        GADMobileAds.sharedInstance().start(completionHandler: nil)
         return WindowGroup {
             DashboardContentView()
                 .sheet(isPresented: $showWhatsNew, content: {
@@ -33,43 +33,43 @@ struct PaperTradingApp: App {
 }
 
 // MARK: - Google AdMob Interstitial - Support class
-class Interstitial: NSObject, GADFullScreenContentDelegate {
-    var interstitial: GADInterstitialAd?
-    private var didLoadAd: Bool = false
-    
-    /// Default initializer of interstitial class
-    init(previewMode: Bool = false) {
-        super.init()
-        if previewMode { return }
-        loadInterstitial()
-    }
-    
-    /// Request AdMob Interstitial ads
-    func loadInterstitial() {
-        if didLoadAd { return }
-        let request = GADRequest()
-        GADInterstitialAd.load(withAdUnitID: AppConfig.adMobAdID, request: request, completionHandler: { [self] ad, error in
-            if ad != nil {
-                didLoadAd = true
-                interstitial = ad
-                interstitial?.fullScreenContentDelegate = self
-            }
-        })
-    }
-    
-    func showInterstitialAds() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            if self.interstitial != nil {
-                let root = UIApplication.shared.windows.first?.rootViewController
-                self.interstitial?.present(fromRootViewController: root!)
-            }
-        }
-    }
-    
-    func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
-        loadInterstitial()
-    }
-}
+//class Interstitial: NSObject, GADFullScreenContentDelegate {
+//    var interstitial: GADInterstitialAd?
+//    private var didLoadAd: Bool = false
+//
+//    /// Default initializer of interstitial class
+//    init(previewMode: Bool = false) {
+//        super.init()
+//        if previewMode { return }
+//        loadInterstitial()
+//    }
+//
+//    /// Request AdMob Interstitial ads
+//    func loadInterstitial() {
+//        if didLoadAd { return }
+//        let request = GADRequest()
+//        GADInterstitialAd.load(withAdUnitID: AppConfig.adMobAdID, request: request, completionHandler: { [self] ad, error in
+//            if ad != nil {
+//                didLoadAd = true
+//                interstitial = ad
+//                interstitial?.fullScreenContentDelegate = self
+//            }
+//        })
+//    }
+//
+//    func showInterstitialAds() {
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+//            if self.interstitial != nil {
+//                let root = UIApplication.shared.windows.first?.rootViewController
+//                self.interstitial?.present(fromRootViewController: root!)
+//            }
+//        }
+//    }
+//    
+//    func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+//        loadInterstitial()
+//    }
+//}
 
 // MARK: - Extensions
 extension Path {
